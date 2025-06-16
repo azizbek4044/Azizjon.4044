@@ -9,7 +9,7 @@
   <title>Azizbek | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
   <style>
     
     * {
@@ -128,31 +128,58 @@
 </head>
 <body>
   <div id="preloader" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#2575fc;z-index:9999;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;">Yuklanmoqda...</div>
-
   <header>
-    <video src="images/video.mp4" autoplay muted loop style="max-width: 150px; border-radius: 50%;"></video>
-    <div style="
- 
-  text-align: center;
-">
+<video autoplay muted loop style=max-width:150px; border-radius: 50%;  id="bgVideo">
+  <source src="images/video.mp4" type="video/mp4" />
+</video>
 </div>
 
     <section id="hero">
 <!-- HERO SECTION -->
 <section id="hero">
   <div class="overlay">
-    <h1>Assalomu Aleykum! </h1>
-    <h2>Men <span id="typed"></span></h2>
+    <h1>Assalomu Aleykum! MEN </h1>
+      <section id="hero">
+    <h1><span id="typed-text"></span></h1>
+  </section>
+
+  <!-- Typed.js kutubxonasi -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Animatsiyali yozuv kodi -->
+  <script>
+    var typed = new Typed("#typed-text", {
+      strings: [
+           "Dasturchi",
+           "Frontendchi",
+           "Backendchi",
+           "Fullstack",
+           "DevOps",
+           "Dizayner",
+           "Botmaker",
+           "Algoritmchi",
+           "ONE/UI va IOS mutaxxasisi",
+          "Kompyuter mutaxxasisi",
+           "Suniy intellekt mutaxxasisi"
+          ],
+      typeSpeed: 70,
+      backSpeed: 55,
+      loop: true
+    });
+  </script>
   </div>
 </section>  
-    <nav style="background-color: rgba(0, 0, 0, 0.7); padding: 1rem; border-radius: 12px; margin-top: 20px;">
-      <a href="index.html" style="color: white; margin: 0 15px; text-decoration: none;">Bosh sahifa</a>
-      <a href="about.html" style="color: white; margin: 0 15px; text-decoration: none;">Men haqimda</a>
-      <a href="projects.html" style="color: white; margin: 0 15px; text-decoration: none;">Loyihalar</a>
-      <a href="blog.html" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
-      <a href="gallery.html" style="color: white; margin: 0 15px; text-decoration: none;">Galereya</a>
-      <a href="contact.html" style="color: white; margin: 0 15px; text-decoration: none;">Aloqa</a>
-    </nav>
+ <nav class="main-nav">
+  <ul class="nav-items">
+    <li><a href="index.html">Bosh sahifa</a></li>
+    <li><a href="about.html">Men haqimda</a></li>
+    <li><a href="projects.html">Loyihalar</a></li>
+    <li><a href="gallery.html">Galereya</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Aloqa</a></li>
+  </ul>
+</nav>
+
     
     
     <button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
@@ -250,6 +277,8 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="js/contact.js"></script>
 <script src="js/main.js"></script>
+
+
 
 </body>
 </html>

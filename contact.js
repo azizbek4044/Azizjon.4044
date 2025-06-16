@@ -1,3 +1,4 @@
+  <link rel="stylesheet" href="style.css" />
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form");
   const status = document.getElementById("status");
