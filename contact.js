@@ -54,10 +54,7 @@ window.addEventListener("scroll", () => {
 document.getElementById("backToTop").addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
-const typed = new Typed("#typed", {
-  strings: ["Azizbek", "Dasturchi", "Talaba", "Blogger"],
-  typeSpeed: 80,
-  backSpeed: 50,
-  loop: true,
-});
+
+<button class="toggle-btn" onclick="toggleDarkMode()">Dark Mode</button>
+
 
