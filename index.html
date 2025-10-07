@@ -58,35 +58,69 @@
     </div>
   </section>
 
-  <!-- === CHAT === -->
-  <div class="chat-widget">
-    <button id="chat-btn">💬</button>
-    <div id="chat-box">
-      <div class="chat-header">Chat Yordamchisi</div>
-      <div class="chat-body" id="chat-body">
-        Salom! Qanday yordam kerak?
-      </div>
-      <input type="text" id="chat-input" placeholder="Xabar yozing...">
+...
+<!-- === CHAT === -->
+<div class="chat-widget">
+  <button id="chat-btn">💬</button>
+  <div id="chat-box">
+    <div class="chat-header">Chat Yordamchisi</div>
+    <div class="chat-body" id="chat-body">
+      Salom! Qanday yordam kerak?
     </div>
+    <input type="text" id="chat-input" placeholder="Xabar yozing...">
   </div>
+</div>
 
-  <script>
-    const chatBtn = document.getElementById('chat-btn');
-    const chatBox = document.getElementById('chat-box');
-    chatBtn.addEventListener('click', () => chatBox.classList.toggle('show'));
+<!-- === SCRIPT === -->
+<script>
+const chatBtn = document.getElementById('chat-btn');
+const chatBox = document.getElementById('chat-box');
+const chatBody = document.getElementById('chat-body');
+const chatInput = document.getElementById('chat-input');
 
-    const chatInput = document.getElementById('chat-input');
-    const chatBody = document.getElementById('chat-body');
-    chatInput.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter' && chatInput.value.trim() !== '') {
-        const userMsg = document.createElement('div');
-        userMsg.textContent = chatInput.value;
-        chatBody.appendChild(userMsg);
-        chatInput.value = '';
-        chatBody.scrollTop = chatBody.scrollHeight;
-      }
-    });
-  </script>
+chatBtn.addEventListener('click', () => chatBox.classList.toggle('show'));
+
+async function sendMessage(message) {
+  const userMsg = document.createElement('div');
+  userMsg.classList.add('user-msg');
+  userMsg.textContent = message;
+  chatBody.appendChild(userMsg);
+  chatInput.value = '';
+  chatBody.scrollTop = chatBody.scrollHeight;
+
+  const botMsg = document.createElement('div');
+  botMsg.classList.add('bot-msg');
+  botMsg.textContent = 'Yuklanmoqda...';
+  chatBody.appendChild(botMsg);
+  chatBody.scrollTop = chatBody.scrollHeight;
+
+  try {
+ const response = await fetch('https://azizjon-4044.vercel.app/api/chat', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ message: chatInput.value })
+});
+
+
+    const data = await response.json();
+    botMsg.textContent = data.choices[0].message.content;
+  } catch (error) {
+    botMsg.textContent = "Xatolik yuz berdi. Iltimos, keyinroq urinib ko‘ring.";
+    console.error(error);
+  }
+
+  chatBody.scrollTop = chatBody.scrollHeight;
+}
+
+chatInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter' && chatInput.value.trim() !== '') {
+    sendMessage(chatInput.value.trim());
+  }
+});
+</script>
+</body>
+</html>
+
   <link rel="stylesheet" href="script.js">
 
 </body>
