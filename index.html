@@ -1,138 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Azizjon.4044 | Portfolio</title>
-
-  <!-- Fonts & Icons -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azizjon Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- AOS Animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- Particle.js -->
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </head>
 <body>
-  
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">Azizjon.4044</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
- <section id="about" class="section about">
-  <div class="about-container" data-aos="fade-up">
-    <div class="about-image">
-      <img src="image1.jpg" alt="Azizjon.4044">
-    </div>
-    <div class="about-text">
-      <h2>Men haqimda </h2>
-      <h3>Salom! Men  <span>Azizjon.4044</span></h3>
-      <p>
-       Men Azizjon.4044 — texnologiya va dasturlashni sevuvchi yosh dasturchiman.  
-       Veb-saytlar, interaktiv ilovalar va foydalanuvchi uchun qulay dizaynlar yaratishni yoqtiraman.  
-       Har kuni yangi narsa o‘rganib, o‘zimni rivojlantirishga intilaman.  
-       Kelajakda Germaniyada IT yo‘nalishida o‘qib, professional dasturchi bo‘lishni maqsad qilganman.
+  <!-- === HERO === -->
+  <section class="hero">
+    <img src="image1.jpg" alt="Azizjon" class="profile-img">
+    <h1>Salom, men <span>Azizjon</span></h1>
+    <p>Frontend Developer | Dasturchi | Texnologiya ixlosmandi</p>
+    <button class="btn">Loyihalarimni ko‘rish</button>
+  </section>
 
-      </p>
-      <div class="about-socials">
-        <a href="https://github.com/azizbek4044" target="_blank">GitHub</a>
-        <a href="https://instagram.com/azizjon.4044" target="_blank">Instagram</a>
-        <a href="atham2989@gmail.com">Email</a>
+  <!-- === LOYIHALAR === -->
+  <section class="projects-section">
+    <h2>Mening loyihalarim</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="proj-portfolio.jpg" alt="Project 1">
+        <h3>Portfolio Sayt</h3>
+        <p>HTML, CSS, JS asosida yaratilgan portfolio loyiham.</p>
+      </div>
+      <div class="project-card">
+        <img src="proj-blockblast.jpg" alt="Project 2">
+        <h3>Notepad App</h3>
+        <p>Adalo orqali yozuvlar uchun yaratilgan dastur.</p>
+      </div>
+      <div class="project-card">
+        <img src="proj-login.jpg" alt="Project 3">
+        <h3>YouTube Clone</h3>
+        <p>Login, izoh va like tizimi bilan YouTube kloni.</p>
       </div>
     </div>
-  </div>  
-</section>
-<!-- ====== Projects Section ====== -->
-<section id="projects" class="section projects" data-aos="fade-up">
-  <div class="projects-header">
-    <h2>Loyihalarim</h2>
-    <p>Tanlangan 3 ta loyiha — qisqacha tavsif va batafsil ko‘rish tugmasi.</p>
-  </div>
+  </section>
 
-  <div class="project-grid">
-    <!-- Project 1 -->
-    <div class="project-card" data-project='{"title":"Portfolio Sayt","img":"proj-portfolio.jpg","desc":"Shaxsiy portfolio sayt — HTML/CSS/JS, responsive va zamonaviy dizayn."}'>
-      <div class="proj-thumb"><img src="proj-portfolio.jpg" alt="Portfolio"></div>
-      <h3>Portfolio Sayt</h3>
-      <p>Shaxsiy ishlarimni va aloqa ma'lumotlarimni ko‘rsatuvchi sayt.</p>
-      <button class="proj-btn">Ko‘rish</button>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="project-card" data-project='{"title":"Block Blast O‘yini","img":"proj-blockblast.jpg","desc":"HTML, CSS va JavaScript yordamida yaratilgan Block Blast o‘yini — mantiq va tezlikni sinovdan o‘tkazadi."}'>
-      <div class="proj-thumb"><img src="proj-blockblast.jpg" alt="Block Blast"></div>
-      <h3>Block Blast O‘yini</h3>
-     <p>Mantiqiy o‘yin — bloklarni joylashtirib eng yuqori ball to‘pla.</p>
-     <button class="proj-btn">Ko‘rish</button>
-    </div>
-
-
-    <!-- Project 3 -->
-  <div class="project-card" data-project='{"title":"Login Sayti","img":"proj-login.jpg","desc":"HTML, CSS va JavaScript yordamida yaratilgan login sahifasi. Foydalanuvchi kirishi, ro‘yxatdan o‘tishi va parolni tiklash tizimi mavjud."}'>
-    <div class="proj-thumb"><img src="proj-login.jpg" alt="Login Sayti"></div>
-    <h3>Login Sayti</h3>
-    <p>Foydalanuvchi kirishi va ro‘yxatdan o‘tish tizimiga ega zamonaviy login sahifa.</p>
-    <button class="proj-btn">Ko‘rish</button>
-   </div>
-   </div>
-</section>
-
-<!-- Project Modal -->
-<div id="project-modal" class="modal" aria-hidden="true">
-  <div class="modal-backdrop"></div>
-  <div class="modal-panel" role="dialog" aria-modal="true">
-    <button class="modal-close" aria-label="close">&times;</button>
-    <div class="modal-content">
-      <img src="" alt="" class="modal-img">
-      <div class="modal-text">
-        <h3 class="modal-title"></h3>
-        <p class="modal-desc"></p>
-        <a href="#" class="modal-link" target="_blank">Loyihani ko‘rish</a>
+  <!-- === STATISTIKA === -->
+  <section class="stats-section">
+    <h2>Statistika</h2>
+    <div class="stats-container">
+      <div class="stat-box">
+        <span class="number">25+</span>
+        <span>Loyihalar</span>
+      </div>
+      <div class="stat-box">
+        <span class="number">3 yil</span>
+        <span>Tajriba</span>
+      </div>
+      <div class="stat-box">
+        <span class="number">100%</span>
+        <span>Motivatsiya</span>
       </div>
     </div>
+  </section>
+
+  <!-- === CHAT === -->
+  <div class="chat-widget">
+    <button id="chat-btn">💬</button>
+    <div id="chat-box">
+      <div class="chat-header">Chat Yordamchisi</div>
+      <div class="chat-body" id="chat-body">
+        Salom! Qanday yordam kerak?
+      </div>
+      <input type="text" id="chat-input" placeholder="Xabar yozing...">
+    </div>
   </div>
-</div>
 
-
-
-  <!-- Sections (placeholders for now) -->
-  <section id="about" class="section" data-aos="fade-up">About Section</section>
-  <section id="projects" class="section" data-aos="fade-up">Projects Section</section>
-  <section id="skills" class="section" data-aos="fade-up">Skills Section</section>
-  <section id="blog" class="section" data-aos="fade-up">Blog Section</section>
-  <section id="gallery" class="section" data-aos="fade-up">Gallery Section</section>
-  <section id="contact" class="section" data-aos="fade-up">Contact Section</section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Azizjon.4044 — All rights reserved.</p>
-  </footer>
-
-  <!-- AOS Script -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init({ duration: 1200, once: true });
-  </script>
+    const chatBtn = document.getElementById('chat-btn');
+    const chatBox = document.getElementById('chat-box');
+    chatBtn.addEventListener('click', () => chatBox.classList.toggle('show'));
 
-  <!-- Particle Config -->
-  <script src="particles-config.js"></script>
-  <script src="js/main.js"></script>
+    const chatInput = document.getElementById('chat-input');
+    const chatBody = document.getElementById('chat-body');
+    chatInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter' && chatInput.value.trim() !== '') {
+        const userMsg = document.createElement('div');
+        userMsg.textContent = chatInput.value;
+        chatBody.appendChild(userMsg);
+        chatInput.value = '';
+        chatBody.scrollTop = chatBody.scrollHeight;
+      }
+    });
+  </script>
+  <link rel="stylesheet" href="script.js">
+
 </body>
 </html>
