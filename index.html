@@ -6,16 +6,111 @@
   <title>Azizjon Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+ <div class="intro">
+  <canvas id="matrix"></canvas>
+  <div class="intro-content">
+    <h1 class="intro-title">Azizjon.4044</h1>
+    <button id="enter-btn">Enter</button>
+  </div>
+</div>
+</script>
+
 </head>
 <body>
 
-  <!-- === HERO === -->
-  <section class="hero">
-    <img src="image1.jpg" alt="Azizjon" class="profile-img">
-    <h1>Salom, men <span>Azizjon</span></h1>
-    <p>Frontend Developer | Dasturchi | Texnologiya ixlosmandi</p>
-    <button class="btn">Loyihalarimni ko‘rish</button>
-  </section>
+ <!-- Saytning asosiy qismida, masalan body ichida -->
+<section class="welcome-section">
+  <div class="intro-text">
+    <h1 class="hello">Assalomu alaykum</h1>
+    <h2 class="im">Men <span class="changing-text"></span></h2>
+  </div>
+</section>
+
+<style>
+.welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://miro.medium.com/v2/resize:fit:1400/1*KnV1cBSw-kWyh7Y6XEEzrA.jpeg') center/cover no-repeat;
+  position: relative;
+}
+
+.welcome-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.intro-text {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hello {
+  font-size: 48px;
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+.im {
+  font-size: 36px;
+  margin-top: 15px;
+  opacity: 0;
+  animation: fadeIn 2s forwards 1.5s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.changing-text {
+  color: #00aaff;
+  font-weight: 600;
+  border-right: 2px solid #00aaff;
+  padding-right: 5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+</style>
+
+<script>
+const texts = ["Azizjon", "Developer", "UI/UX Designer", "", "AI Engineer", "System Analyst", "Cybersecurity Expert"];
+let count = 0;
+let index = 0;
+let currentText = '';
+let letter = '';
+const changingText = document.querySelector('.changing-text');
+
+function type() {
+  if (count === texts.length) count = 0;
+  currentText = texts[count];
+  letter = currentText.slice(0, ++index);
+
+  changingText.textContent = letter;
+  if (letter.length === currentText.length) {
+    setTimeout(() => {
+      index = 0;
+      count++;
+      type();
+    }, 1500);
+  } else {
+    setTimeout(type, 120);
+  }
+}
+
+setTimeout(type, 1500);
+</script>
 
   <!-- === LOYIHALAR === -->
   <section class="projects-section">
@@ -23,18 +118,18 @@
     <div class="projects">
       <div class="project-card">
         <img src="proj-portfolio.jpg" alt="Project 1">
-        <h3>Portfolio Sayt</h3>
+        <h3>Portfolio </h3>
         <p>HTML, CSS, JS asosida yaratilgan portfolio loyiham.</p>
       </div>
       <div class="project-card">
         <img src="proj-blockblast.jpg" alt="Project 2">
-        <h3>Notepad App</h3>
-        <p>Adalo orqali yozuvlar uchun yaratilgan dastur.</p>
+        <h3>Block Blast </h3>
+        <p><p>Python orqali yaratilgan oyin</p></p>
       </div>
       <div class="project-card">
         <img src="proj-login.jpg" alt="Project 3">
-        <h3>YouTube Clone</h3>
-        <p>Login, izoh va like tizimi bilan YouTube kloni.</p>
+        <h3>Login </h3>
+        <p>Ko'p funksiyali login sayti </p>
       </div>
     </div>
   </section>
@@ -44,7 +139,7 @@
     <h2>Statistika</h2>
     <div class="stats-container">
       <div class="stat-box">
-        <span class="number">25+</span>
+        <span class="number">10+</span>
         <span>Loyihalar</span>
       </div>
       <div class="stat-box">
@@ -52,8 +147,12 @@
         <span>Tajriba</span>
       </div>
       <div class="stat-box">
-        <span class="number">100%</span>
-        <span>Motivatsiya</span>
+        <span class="number">16</span>
+        <span>Yosh</span>
+      </div>
+        <div class="stat-box">
+        <span class="number">4500+</span>
+        <span>Yozilgan kodlar qatori</span>
       </div>
     </div>
   </section>
