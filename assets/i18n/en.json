@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "ai": "AI Assistants",
+    "how": "How it works",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Dedicated AI assistants for different questions",
+    "subtitle": "Study, tech, finance, translation, and everyday tasks",
+    "cta": "Choose AI",
+    "more": "More AI"
+  },
+  "home": {
+    "previewTitle": "Assistant preview",
+    "previewSubtitle": "6 assistants at a glance.",
+    "howTitle": "How it works",
+    "how1Title": "Pick a direction",
+    "how1Desc": "Choose the right assistant from 10 roles.",
+    "how2Title": "Ask a question",
+    "how2Desc": "Short, clear prompt.",
+    "how3Title": "Get the result",
+    "how3Desc": "Answer, advice, or plan."
+  },
+  "ai": {
+    "title": "AI Assistants",
+    "subtitle": "10 assistants, each focused on one task."
+  },
+  "chat": {
+    "title": "AI Chat",
+    "subtitle": "Simple WhatsApp-style chat.",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "sampleAi": "Hi! What do you need help with?",
+    "sampleUser": "Build me a 7-day study plan."
+  },
+  "about": {
+    "title": "About",
+    "body": "AZIZJONOS is an AI assistant hub for everyday people. Minimal design, clear tasks, fast results."
+  },
+  "telegram": {
+    "title": "Telegram",
+    "subtitle": "Channel for updates and helpful prompts.",
+    "nav": "Telegram",
+    "cta": "Open Telegram"
+  },
+  "footer": {
+    "note": "2025 AZIZJONOS. AI Hub."
+  },
+  "assistants": {
+    "strategist": {
+      "name": "Strategist",
+      "desc": "Goals, roadmap, and planning."
+    },
+    "researcher": {
+      "name": "Researcher",
+      "desc": "Trends and data lookup."
+    },
+    "copywriter": {
+      "name": "Copywriter",
+      "desc": "Headlines and copy."
+    },
+    "designer": {
+      "name": "Designer",
+      "desc": "UI/UX guidance."
+    },
+    "engineer": {
+      "name": "Engineer",
+      "desc": "HTML/CSS/JS help."
+    },
+    "analyst": {
+      "name": "Analyst",
+      "desc": "KPIs and analysis."
+    },
+    "legal": {
+      "name": "Legal",
+      "desc": "Contracts and risks."
+    },
+    "planner": {
+      "name": "Planner",
+      "desc": "Budget and timelines."
+    },
+    "tutor": {
+      "name": "Tutor",
+      "desc": "Learning plans and explanations."
+    },
+    "support": {
+      "name": "Support",
+      "desc": "FAQ and quick answers."
+    }
+  }
+}

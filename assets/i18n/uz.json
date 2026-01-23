@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "ai": "AI Yordamchilar",
+    "how": "Qanday ishlaydi",
+    "about": "Biz haqimizda"
+  },
+  "hero": {
+    "title": "Har xil savollar uchun alohida AI yordamchilar",
+    "subtitle": "O'qish, texnika, pul, tarjima va boshqa kundalik savollar uchun",
+    "cta": "AI tanlash",
+    "more": "Yana AI'lar"
+  },
+  "home": {
+    "previewTitle": "AI yordamchilar preview",
+    "previewSubtitle": "6 ta yordamchi tez ko'rinishda.",
+    "howTitle": "Qanday ishlaydi",
+    "how1Title": "Yo'nalishni tanlang",
+    "how1Desc": "10 ta AI yordamchi ichidan keraklisini tanlang.",
+    "how2Title": "Savol bering",
+    "how2Desc": "Qisqa va aniq savol yozing.",
+    "how3Title": "Natijani oling",
+    "how3Desc": "Javob, maslahat yoki reja oling."
+  },
+  "ai": {
+    "title": "AI Yordamchilar",
+    "subtitle": "10 ta yordamchi, har biri alohida vazifaga fokus."
+  },
+  "chat": {
+    "title": "AI Chat",
+    "subtitle": "WhatsApp uslubida tez va sodda chat.",
+    "placeholder": "Savolingizni yozing...",
+    "send": "Yuborish",
+    "sampleAi": "Salom! Qaysi mavzu bo'yicha yordam kerak?",
+    "sampleUser": "Menga 7 kunlik o'quv reja tuzib ber."
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "body": "AZIZJONOS - oddiy odamlar uchun AI yordamchilar markazi. Minimal dizayn, aniq vazifa va tez natija."
+  },
+  "telegram": {
+    "title": "Telegram",
+    "subtitle": "Yangiliklar va foydali promptlar uchun kanal.",
+    "nav": "Telegram",
+    "cta": "Telegramga o'tish"
+  },
+  "footer": {
+    "note": "2025 AZIZJONOS. AI Hub."
+  },
+  "assistants": {
+    "strategist": {
+      "name": "Strateg",
+      "desc": "Maqsad, yo'l xarita va reja."
+    },
+    "researcher": {
+      "name": "Tadqiqotchi",
+      "desc": "Trend va ma'lumot izlash."
+    },
+    "copywriter": {
+      "name": "Copywriter",
+      "desc": "Sarlavha va matn yozish."
+    },
+    "designer": {
+      "name": "Dizayner",
+      "desc": "UI/UX bo'yicha maslahat."
+    },
+    "engineer": {
+      "name": "Texnik yordamchi",
+      "desc": "HTML/CSS/JS bo'yicha javob."
+    },
+    "analyst": {
+      "name": "Analitik",
+      "desc": "KPI va raqamlar tahlili."
+    },
+    "legal": {
+      "name": "Yuridik",
+      "desc": "Shartnoma va risklar."
+    },
+    "planner": {
+      "name": "Rejalashtiruvchi",
+      "desc": "Byudjet va vaqt rejasi."
+    },
+    "tutor": {
+      "name": "Ustoz",
+      "desc": "O'quv reja va tushuntirish."
+    },
+    "support": {
+      "name": "Support",
+      "desc": "FAQ va tez javoblar."
+    }
+  }
+}

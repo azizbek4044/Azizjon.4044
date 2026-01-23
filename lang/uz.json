@@ -1,0 +1,150 @@
+{
+  "brand": {
+    "name": "AZIZJONOS"
+  },
+  "common": {
+    "menu": "MENU",
+    "aiHub": "AI Hub",
+    "previewEyebrow": "Preview",
+    "stepsEyebrow": "Qadamlar",
+    "chatEyebrow": "Chat",
+    "aboutEyebrow": "Haqida",
+    "telegramEyebrow": "Telegram"
+  },
+  "nav": {
+    "ai": "AI Yordamchilar",
+    "how": "Qanday ishlaydi",
+    "about": "Biz haqimizda"
+  },
+  "hero": {
+    "titleLine1": "Har xil savollar uchun",
+    "titleHighlight": "Alohida AI",
+    "titleLine2": "yordamchilar",
+    "subtitle": "O'qish, texnika, pul, tarjima va kundalik savollar uchun",
+    "cta": "AI tanlash",
+    "secondary": "Bepul sinab ko'rish",
+    "more": "Yana AI'lar"
+  },
+  "home": {
+    "previewTitle": "AI yordamchilar",
+    "previewSubtitle": "6 ta yordamchi tez ko'rinishda.",
+    "howTitle": "Qanday ishlaydi",
+    "how1Title": "Yordamchini tanlang",
+    "how1Desc": "Kerakli yo'nalishni bosing.",
+    "how2Title": "Savol yozing",
+    "how2Desc": "Qisqa va aniq yozing.",
+    "how3Title": "Javob oling",
+    "how3Desc": "Sodda va tushunarli javob."
+  },
+  "why": {
+    "title": "Nega AZIZJONOS?",
+    "subtitle": "Tez, aniq va xavfsiz AI yordamchilar markazi.",
+    "fast": {
+      "title": "Tez ishlaydi",
+      "desc": "Keraksiz bosqichlar yo'q, tez javob."
+    },
+    "focus": {
+      "title": "Aniq yo'nalish",
+      "desc": "Har yordamchi bitta vazifaga fokus."
+    },
+    "safe": {
+      "title": "Xavfsiz yondashuv",
+      "desc": "Zararli so'rovlarga javob bermaydi."
+    },
+    "simple": {
+      "title": "Oddiy til",
+      "desc": "Tushunarli va amaliy javoblar."
+    }
+  },
+  "ai": {
+    "title": "AI Yordamchilar",
+    "subtitle": "10 ta yordamchi, har biri bitta vazifa uchun."
+  },
+  "aiItems": {
+    "free": {
+      "title": "Erkin yordamchi",
+      "desc": "Umumiy savollar uchun.",
+      "examples": ["Bugun rejamni tuzib ber.", "Qanday tezroq o'rganaman?", "3 ta oddiy maslahat ber."]
+    },
+    "tech": {
+      "title": "Texnik yordamchi",
+      "desc": "Telefon va kompyuter muammolari.",
+      "examples": ["Wi-Fi ishlamayapti.", "Telefon sekinlashdi.", "Noutbuk qiziydi."]
+    },
+    "study": {
+      "title": "O'qish yordamchisi",
+      "desc": "Dars va reja bo'yicha yordam.",
+      "examples": ["Matematika reja tuz.", "IELTS uchun 2 haftalik reja.", "Mavzuni oddiy tushuntir."]
+    },
+    "finance": {
+      "title": "Pul bo'yicha",
+      "desc": "Byudjet va tejash.",
+      "examples": ["Oylik byudjet tuz.", "Tejash uchun 3 qadam.", "Qarzdan chiqish rejasi."]
+    },
+    "translate": {
+      "title": "Tarjima",
+      "desc": "Uz / Ru / En tarjima.",
+      "examples": ["Matnni inglizchaga tarjima qil.", "Rasmiy uslubda tarjima.", "Qisqa variant qil."]
+    },
+    "health": {
+      "title": "Sog'liq",
+      "desc": "Oddiy sog'liq maslahatlari.",
+      "examples": ["Uyquni yaxshilash.", "Bosh og'rig'i bo'lsa nima qilay?", "Immunitetni oshirish."]
+    },
+    "travel": {
+      "title": "Sayohat",
+      "desc": "Qisqa reja va byudjet.",
+      "examples": ["Samarqandga 3 kun.", "Arzon sayohat maslahatlari.", "Mehmonxona tanlash."]
+    },
+    "legal": {
+      "title": "Hujjatlar",
+      "desc": "Shartnoma va hujjat savollari.",
+      "examples": ["Shartnomani tekshirish.", "Ijara xavflari.", "Kichik biznes uchun maslahat."]
+    },
+    "design": {
+      "title": "Dizayn",
+      "desc": "Oddiy dizayn maslahatlari.",
+      "examples": ["Landing layout taklif qil.", "Ranglar kombinatsiyasi.", "Minimal UI tips."]
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Reklama va post g'oyalari.",
+      "examples": ["Instagram post g'oyalari.", "Reklama matni yoz.", "CTA variantlar."]
+    }
+  },
+  "chat": {
+    "title": "AI Chat",
+    "subtitle": "Oddiy va tez chat.",
+    "placeholder": "Savolingizni yozing...",
+    "send": "Yuborish",
+    "typing": "yozyapti...",
+    "safety": {
+      "uz": "Bunday so'rovga yordam bera olmayman. Xavfsiz variantni ko'rib chiqamiz."
+    },
+    "start": {
+      "free": "Salom! Qanday yordam bera olaman?",
+      "tech": "Salom! Qaysi qurilma muammo qilyapti?",
+      "study": "Salom! Qaysi fan kerak?",
+      "finance": "Salom! Byudjet bo'yicha yordam kerakmi?",
+      "translate": "Salom! Qaysi tildan qaysi tilga?",
+      "health": "Salom! Nima bezovta qilyapti?",
+      "travel": "Salom! Qayerga boramiz?",
+      "legal": "Salom! Qaysi hujjat bo'yicha?",
+      "design": "Salom! Qaysi dizayn kerak?",
+      "marketing": "Salom! Qaysi kanal uchun?"
+    }
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "body": "AZIZJONOS - oddiy odamlar uchun AI yordamchilar markazi. Maqsad: sodda va tez yordam."
+  },
+  "telegram": {
+    "title": "Telegram",
+    "subtitle": "Yangiliklar va foydali maslahatlar.",
+    "nav": "Telegram",
+    "cta": "Telegramga o'tish"
+  },
+  "footer": {
+    "note": "2025 AZIZJONOS. AI Hub."
+  }
+}

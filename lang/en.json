@@ -1,0 +1,150 @@
+{
+  "brand": {
+    "name": "AZIZJONOS"
+  },
+  "common": {
+    "menu": "MENU",
+    "aiHub": "AI Hub",
+    "previewEyebrow": "Preview",
+    "stepsEyebrow": "Steps",
+    "chatEyebrow": "Chat",
+    "aboutEyebrow": "About",
+    "telegramEyebrow": "Telegram"
+  },
+  "nav": {
+    "ai": "AI Assistants",
+    "how": "How it works",
+    "about": "About"
+  },
+  "hero": {
+    "titleLine1": "Dedicated helpers",
+    "titleHighlight": "AI",
+    "titleLine2": "for everyday questions",
+    "subtitle": "Study, tech, money, translation, and simple daily tasks",
+    "cta": "Choose AI",
+    "secondary": "Try for free",
+    "more": "More AI"
+  },
+  "home": {
+    "previewTitle": "AI helpers",
+    "previewSubtitle": "6 helpers to start quickly.",
+    "howTitle": "How it works",
+    "how1Title": "Pick a helper",
+    "how1Desc": "Tap the needed topic.",
+    "how2Title": "Write a question",
+    "how2Desc": "Keep it short and clear.",
+    "how3Title": "Get the answer",
+    "how3Desc": "Simple and easy to read."
+  },
+  "why": {
+    "title": "Why AZIZJONOS?",
+    "subtitle": "Fast, clear, and safe.",
+    "fast": {
+      "title": "Fast",
+      "desc": "No extra steps."
+    },
+    "focus": {
+      "title": "Clear focus",
+      "desc": "One helper, one task."
+    },
+    "safe": {
+      "title": "Safe",
+      "desc": "Blocks harmful requests."
+    },
+    "simple": {
+      "title": "Simple language",
+      "desc": "Easy and practical answers."
+    }
+  },
+  "ai": {
+    "title": "AI Assistants",
+    "subtitle": "10 helpers, each for one task."
+  },
+  "aiItems": {
+    "free": {
+      "title": "General helper",
+      "desc": "For common questions.",
+      "examples": ["Plan my day.", "How can I learn faster?", "Give 3 simple tips."]
+    },
+    "tech": {
+      "title": "Tech helper",
+      "desc": "Phone and computer issues.",
+      "examples": ["Wi-Fi is not working.", "My phone is slow.", "Laptop overheats."]
+    },
+    "study": {
+      "title": "Study helper",
+      "desc": "Study and planning help.",
+      "examples": ["Make a math plan.", "IELTS for 2 weeks.", "Explain simply."]
+    },
+    "finance": {
+      "title": "Money",
+      "desc": "Budget and saving.",
+      "examples": ["Build a budget.", "3 saving steps.", "Plan to pay off debt."]
+    },
+    "translate": {
+      "title": "Translation",
+      "desc": "Uz / Ru / En translation.",
+      "examples": ["Translate to English.", "Use a formal style.", "Make it short."]
+    },
+    "health": {
+      "title": "Health",
+      "desc": "Simple health tips.",
+      "examples": ["How to sleep better?", "I get headaches.", "Boost immunity tips."]
+    },
+    "travel": {
+      "title": "Travel",
+      "desc": "Plan and budget help.",
+      "examples": ["3 days in Samarkand.", "Budget trip tips.", "Help pick a hotel."]
+    },
+    "legal": {
+      "title": "Documents",
+      "desc": "Contracts and papers.",
+      "examples": ["Review a contract.", "Rental risks.", "Small business advice."]
+    },
+    "design": {
+      "title": "Design",
+      "desc": "Simple design tips.",
+      "examples": ["Suggest a landing layout.", "Pick colors.", "Minimal UI tips."]
+    },
+    "marketing": {
+      "title": "Marketing",
+      "desc": "Ads and post ideas.",
+      "examples": ["Instagram post ideas.", "Write an ad.", "CTA options."]
+    }
+  },
+  "chat": {
+    "title": "AI Chat",
+    "subtitle": "Simple and fast chat.",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "typing": "typing...",
+    "safety": {
+      "en": "I can't help with that. Let's find a safe alternative."
+    },
+    "start": {
+      "free": "Hi! How can I help?",
+      "tech": "Hi! Which device has the problem?",
+      "study": "Hi! Which subject do you need?",
+      "finance": "Hi! Need help with a budget?",
+      "translate": "Hi! From which language to which?",
+      "health": "Hi! What bothers you?",
+      "travel": "Hi! Where do you want to go?",
+      "legal": "Hi! Which document is it about?",
+      "design": "Hi! What design do you need?",
+      "marketing": "Hi! Which channel is it for?"
+    }
+  },
+  "about": {
+    "title": "About",
+    "body": "AZIZJONOS is an AI helper hub for everyday people. Goal: simple and fast help."
+  },
+  "telegram": {
+    "title": "Telegram",
+    "subtitle": "News and useful tips.",
+    "nav": "Telegram",
+    "cta": "Open Telegram"
+  },
+  "footer": {
+    "note": "2025 AZIZJONOS. AI Hub."
+  }
+}
